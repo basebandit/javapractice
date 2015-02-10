@@ -1,0 +1,16 @@
+import java.io.*;
+public class OmittedInit{
+ static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+ public static void main(String[] args){
+  int a;
+  try{
+  System.out.println("Where should i start?");
+  a = reader.readLine();
+  for( ;a >= 0;a--){
+     System.out.println(a);
+   }
+  }catch(Exception e){
+   System.err.println(e.PrintStackTrace());
+  }
+ }
+}

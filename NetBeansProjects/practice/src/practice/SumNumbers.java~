@@ -1,0 +1,19 @@
+public class SumNumbers{
+ String num1,num2;
+ int sum = 0;
+ int add(String n1,String n2)throws Exception{
+  int number1,number2;
+  number1 = Integer.parseInt(n1);
+  number2 = Integer.parseInt(n2);
+  return number1 + number2;
+ } 
+ public static void main(String[] args){
+  java.io.BufferedReader br = new java.io.BufferedReader(new java.io.InputStreamReader(System.in));
+  System.out.println("Enter num1");
+  num1 = br.readLine();
+  System.out.println("Enter num2");
+  num2 = br.readLine();
+  sum =add(num1,num2);
+  System.out.println("Sum of "+num1+" and "+num2+" is "+sum);
+ }
+}

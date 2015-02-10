@@ -1,0 +1,10 @@
+public class RandomNumber{
+  public static void main(){
+   System.out.println(getRandomNumber());
+  }
+  public static int getRandomNumber(){
+   int num = (int)(Math.random()*10)*1;
+    if(num != 12)
+      return num;
+  }
+}

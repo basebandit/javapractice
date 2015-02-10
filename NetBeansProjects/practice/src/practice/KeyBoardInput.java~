@@ -1,0 +1,10 @@
+public class KeyBoardInput{
+  public static void main(String []args){
+  String name;
+  InputStreamReader is = new InputStreamReader(System.in);
+  BufferedReader br = new BufferedReader(is);
+  System.out.println("Enter Your Name");
+  name = br.readLn();
+  System.out.println("Your Name is "+name);
+  }
+}

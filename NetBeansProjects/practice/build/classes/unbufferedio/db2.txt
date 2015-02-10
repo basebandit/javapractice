@@ -1,0 +1,57 @@
+                                        
+Product to install:                     	DB2 Express-C 
+Installation type:                      	Typical 
+                                        
+Previously Installed Components:        
+                                        
+Selected Components:                    
+    Base client support                 	
+    Java support                        	
+    SQL procedures                      	
+    Base server support                 	
+    Communication support - TCP/IP      	
+    DB2 data source support             	
+    DB2 LDAP support                    	
+    DB2 Instance Setup wizard           	
+    DB2 Update Service                  	
+    First Steps                         	
+    Sample database source              	
+                                        
+Languages:                              
+    English                             	
+        All Products                    	
+                                        
+Target directory:                       	/opt/ibm/db2/V10.5
+                                        
+Space required:                         	636 MB 
+                                        
+New instances:                          
+    Instance name:                      	db2inst1
+        Start instance on reboot:       	Yes 
+        TCP/IP configuration:           	
+            Service name:               	db2c_db2inst1
+            Port number:                	50000
+        Instance user information:      	
+            User name:                  	db2inst1
+            Group name:                 	db2iadm1
+            Home directory:             	/home/db2inst1
+        Fenced user information:        	
+            User name:                  	db2fenc1
+            Group name:                 	db2fadm1
+            Home directory:             	/home/db2fenc1
+                                        
+                                        
+DB2 Administration server:              
+    Instance user information:          	
+        User name:                      	dasusr1
+        Group name:                     	dasadm1
+        Home directory:                 	/home/dasusr1
+                                        
+                                        
+                                        
+Contact specification:                  
+    New contacts:                       	
+        Name:                           	db2inst1
+        Instance:                       	db2inst1
+        E-mail address:                 	db2inst1@kali
+        E-mail address is for a pager:  	No 

@@ -1,0 +1,13 @@
+public class NewClass extends javax.swing.JFrame{
+
+  public NewClass(){
+    setVisible(true);
+    setSize(300, 400);
+    setLocationRelativeTo(null);
+  }
+  
+}
+
+public static void main(String munufe []){
+ NewClass newClass = new NewClass();
+}

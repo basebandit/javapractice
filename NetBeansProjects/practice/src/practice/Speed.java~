@@ -1,0 +1,13 @@
+import java.io.PrintStream;
+
+public class Speed{
+  static PrintStream ps = new PrintStream(System.out);
+  public static void main(String []args){
+   int ball b1 = new ball();
+   ball b2 = b1;
+   b1.setSpeed(60);
+   b2.setSpeed(100);
+   int speed =b1.getSpeed();
+   ps.println("Final Ball speed is "+speed);
+  }
+}
